@@ -12,8 +12,8 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1)
       '@raycast/utils':
-        specifier: ^2.3.1
-        version: 2.3.1(@raycast/api@2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1))(react@19.0.0)
+        specifier: ^2.3.3
+        version: 2.3.3(@raycast/api@2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1))(react@19.0.0)
     devDependencies:
       '@raycast/eslint-config':
         specifier: ^2.2.0
@@ -689,8 +689,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
 
-  '@raycast/utils@2.3.1':
-    resolution: {integrity: sha512-GaByXcbQP05vBkHw3rPevZRkSmVZikOIXwbKOLFlQqqC9T8MxoDYp9KyeXBngjnaDzS3ELGqGkmoxNueGhjJww==}
+  '@raycast/utils@2.3.3':
+    resolution: {integrity: sha512-qtnuoRijFD+NDC4XEgoAyrmuIuqwYtl73RYPwuk/drhRNp0ywktNbb7wI58ZM9vPj+253iF/F5tr0TYwTuz0Fg==}
     peerDependencies:
       '@raycast/api': '>=1.99.4'
       react: '>=19.0.0'
@@ -1750,7 +1750,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@raycast/utils@2.3.1(@raycast/api@2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1))(react@19.0.0)':
+  '@raycast/utils@2.3.3(@raycast/api@2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1))(react@19.0.0)':
     dependencies:
       '@raycast/api': 2.3.1(@types/node@22.19.17)(@types/react@19.3.0)(supports-color@8.1.1)
       dequal: 2.0.3
